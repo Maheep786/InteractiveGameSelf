@@ -14,6 +14,9 @@
 		4C1EE3372317B6B6002F9B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1EE3362317B6B6002F9B21 /* Assets.xcassets */; };
 		4C1EE33A2317B6B6002F9B21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1EE3382317B6B6002F9B21 /* LaunchScreen.storyboard */; };
 		4C1EE3452317B6B6002F9B21 /* InteractiveGameSelfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1EE3442317B6B6002F9B21 /* InteractiveGameSelfTests.swift */; };
+		4C1EE3522317BA33002F9B21 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1EE3512317BA33002F9B21 /* PageController.swift */; };
+		4C1EE3552317BB74002F9B21 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1EE3542317BB74002F9B21 /* Page.swift */; };
+		4C1EE3572317BBD0002F9B21 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1EE3562317BBD0002F9B21 /* Story.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		4C1EE3402317B6B6002F9B21 /* InteractiveGameSelfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InteractiveGameSelfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C1EE3442317B6B6002F9B21 /* InteractiveGameSelfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveGameSelfTests.swift; sourceTree = "<group>"; };
 		4C1EE3462317B6B6002F9B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C1EE3512317BA33002F9B21 /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
+		4C1EE3542317BB74002F9B21 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		4C1EE3562317BBD0002F9B21 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,7 @@
 		4C1EE3202317B6B4002F9B21 = {
 			isa = PBXGroup;
 			children = (
+				4C1EE3532317BA5E002F9B21 /* ViewControllers */,
 				4C1EE32B2317B6B4002F9B21 /* InteractiveGameSelf */,
 				4C1EE3432317B6B6002F9B21 /* InteractiveGameSelfTests */,
 				4C1EE32A2317B6B4002F9B21 /* Products */,
@@ -80,12 +87,13 @@
 			isa = PBXGroup;
 			children = (
 				4C1EE32C2317B6B4002F9B21 /* AppDelegate.swift */,
-				4C1EE32E2317B6B4002F9B21 /* ViewController.swift */,
 				4C1EE3302317B6B4002F9B21 /* Main.storyboard */,
 				4C1EE3362317B6B6002F9B21 /* Assets.xcassets */,
 				4C1EE3382317B6B6002F9B21 /* LaunchScreen.storyboard */,
 				4C1EE33B2317B6B6002F9B21 /* Info.plist */,
 				4C1EE3332317B6B4002F9B21 /* InteractiveGameSelf.xcdatamodeld */,
+				4C1EE3542317BB74002F9B21 /* Page.swift */,
+				4C1EE3562317BBD0002F9B21 /* Story.swift */,
 			);
 			path = InteractiveGameSelf;
 			sourceTree = "<group>";
@@ -97,6 +105,15 @@
 				4C1EE3462317B6B6002F9B21 /* Info.plist */,
 			);
 			path = InteractiveGameSelfTests;
+			sourceTree = "<group>";
+		};
+		4C1EE3532317BA5E002F9B21 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C1EE32E2317B6B4002F9B21 /* ViewController.swift */,
+				4C1EE3512317BA33002F9B21 /* PageController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +217,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C1EE3522317BA33002F9B21 /* PageController.swift in Sources */,
 				4C1EE3352317B6B4002F9B21 /* InteractiveGameSelf.xcdatamodeld in Sources */,
 				4C1EE32F2317B6B4002F9B21 /* ViewController.swift in Sources */,
 				4C1EE32D2317B6B4002F9B21 /* AppDelegate.swift in Sources */,
+				4C1EE3552317BB74002F9B21 /* Page.swift in Sources */,
+				4C1EE3572317BBD0002F9B21 /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
